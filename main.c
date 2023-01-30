@@ -23,7 +23,7 @@ void main(void) {
             if(_countAuto >= 5){
                 _countAuto -= 5;
             }
-            if(_counterDelay > 0){
+            if(_counterDelay >= 1){
                 _counterDelay -= 1;
             }
         }

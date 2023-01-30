@@ -6,10 +6,10 @@ Linker command line:
   --edf=C:\Program Files\Microchip\xc8\v2.40\pic\dat\20220703182018_en.msgs \
   -cn -h+dist/default/production\020_AUTO_CF.X.production.sym \
   --cmf=dist/default/production\020_AUTO_CF.X.production.cmf -z -Q16F1829 \
-  -oC:\Users\DELL\AppData\Local\Temp\xcAsdks.4 --defsym=__MPLAB_BUILD=1 \
+  -oC:\Users\DELL\AppData\Local\Temp\xcAsgdk.4 --defsym=__MPLAB_BUILD=1 \
   --fixupoverflow=error \
   -Mdist/default/production/020_AUTO_CF.X.production.map \
-  --md=C:\Users\DELL\AppData\Local\Temp\xcAsdks.dat -E1 -ver=XC8 Compiler \
+  --md=C:\Users\DELL\AppData\Local\Temp\xcAsgdk.dat -E1 -ver=XC8 Compiler \
   --acfsm=1493 -ACODE=00h-07FFhx4 -ASTRCODE=00h-01FFFh -ASTRING=00h-0FFhx32 \
   -ACONST=00h-0FFhx32 -AENTRY=00h-0FFhx32 -ACOMMON=070h-07Fh \
   -ABANK0=020h-06Fh -ABANK1=0A0h-0EFh -ABANK2=0120h-016Fh \
@@ -34,7 +34,7 @@ Linker command line:
   -peeprom_data=EEDATA -DEEDATA=2 -DCODE=2 -DSTRCODE=2 -DSTRING=2 -DCONST=2 \
   -DENTRY=2 -preset_vec=00h,intentry=04h,init,end_init -ppowerup=CODE \
   -pcinit=CODE -pfunctab=ENTRY -k \
-  C:\Users\DELL\AppData\Local\Temp\xcAsdks.o \
+  C:\Users\DELL\AppData\Local\Temp\xcAsgdk.o \
   dist/default/production\020_AUTO_CF.X.production.o 
 
 Object code version is 3.11
@@ -44,7 +44,7 @@ Machine type is 16F1829
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\DELL\AppData\Local\Temp\xcAsdks.o
+C:\Users\DELL\AppData\Local\Temp\xcAsgdk.o
                 end_init                             1D       1D        2        8       0
                 reset_vec                             0        0        2        0       0
                 config                             8007     8007        2        0       4
